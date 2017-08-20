@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	text-align: center;
+}
+
+#user-radius-input {
+	padding: 5px;
+}
+
+#radius-actions {
+	margin-top: 25px;
+}
+
+#calculate-volume {
+	padding: 10px;
+	border-radius: 15px;
+	color: #fff;
+	background-color: #5cb85c;
+	border: 1px solid #5cb85c;
+}
+
+#calculate-volume:hover {
+	background-color: #449d44;
+	border-color: #419641;
+}
+
+#clear-volume {
+	padding: 10px;
+	border-radius: 15px;
+	color: #fff;
+	background-color: #d9534f;
+	border: 1px solid #d9534f;
+}
+
+#clear-volume:hover {
+	background-color: #c9302c;
+	border-color: #c12e2a;
+}
+
+#result.hidden {
+	display: none;
+}
